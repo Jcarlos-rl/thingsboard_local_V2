@@ -22,7 +22,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "3cc7fe90-ce1c-11ee-bab6-d361411bf283"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "74c3bdf0-ce1e-11ee-bab6-d361411bf283"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -34,11 +37,10 @@
     "type" : "iBeacon_MQTT"
   },
   "credentials" : {
-    "credentialsId" : "e0da1d8320a36f34fdc1d264fb30005168653ca076a7c8c1c971a5d1538cb3b1",
-    "credentialsType" : "MQTT_BASIC",
-    "credentialsValue" : "{\"clientId\":\"6kqgi6s8ig4ss4d6dsdg\",\"userName\":\"f8ii95f84nrmyovi703f\",\"password\":\"80mpm3kry9bw2nnqyl0s\"}"
+    "credentialsId" : "1c8s11u2z7uy4gynlkyg",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
